@@ -35,7 +35,7 @@ Moreover, the other models (pretrained GPEN, Real-ESRGAN and RetinaFace) we need
     python scripts/generate_tfrecord.py
     ```
 
-- All the test data are provided as [BaiduDisk](https://pan.baidu.com/s/1zMGCocoXNsXyLfURjgCWeg?pwd=ywm5) and Google Drive(will be prepared soon). Each synthsized dataset has two subfolders (GT, LQ), while the RealFaces200 dataset only has a RF200.txt to show the source or the link of every image. Noted that two subfolders Face_HQ and Face_LQ are also needed during test, you can generate them youself with generate_test_faces.py.
+- All the test data are provided as [BaiduDisk](https://pan.baidu.com/s/1PXQSzpyqzsLg6MR9_IYn0Q?pwd=ydps) and Google Drive(will be prepared soon). Each synthsized dataset has two subfolders (GT, LQ), while the RealFaces200 dataset only has a RF200.txt to show the source or the link of every image. Noted that two subfolders Face_HQ and Face_LQ are also needed during test, you can generate them youself with generate_test_faces.py.
     ```shell
     python generate_test_faces.py --input_dir input_dir --output_dir output_dir
     ```
