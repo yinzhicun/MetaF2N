@@ -22,9 +22,9 @@ pip install -r requirements.txt
 
 ### Pretrained Models
 
-We provide the pretrained checkpoints in [BaiduDisk](https://pan.baidu.com/s/1Up3W9OKVNgdZT1mwQHZeoQ?pwd=7fm2) and Google Drive(will be prepared soon). One can download them and save to the directory `./pretrained_models`.
+We provide the pretrained checkpoints in [BaiduDisk](https://pan.baidu.com/s/1Up3W9OKVNgdZT1mwQHZeoQ?pwd=7fm2) and [Google Drive](https://drive.google.com/drive/folders/1R0ekBOXWufM5vu0PZNYeCpAPS2R1w3gf?usp=drive_link). One can download them and save to the directory `./pretrained_models`.
 
-Moreover, the other models (pretrained GPEN, Real-ESRGAN and RetinaFace) we need for training and testing are also provided in [BaiduDisk](https://pan.baidu.com/s/13GEXwwA2250V18_oyWuSnA?pwd=8es6) and Google Drive(will be prepared soon). One can download them and save to the directory `./weights`.
+Moreover, the other models (pretrained GPEN, Real-ESRGAN and RetinaFace) we need for training and testing are also provided in [BaiduDisk](https://pan.baidu.com/s/13GEXwwA2250V18_oyWuSnA?pwd=8es6) and [Google Drive]((https://drive.google.com/drive/folders/1UyduarmLBkZ38NCRQSiuJSjrtPqWQXiX?usp=drive_link)). One can download them and save to the directory `./weights`.
 
 ### Preparing Dataset
 
@@ -35,7 +35,7 @@ Moreover, the other models (pretrained GPEN, Real-ESRGAN and RetinaFace) we need
     python scripts/generate_tfrecord.py
     ```
 
-- All the test data are provided as [BaiduDisk](https://pan.baidu.com/s/1PXQSzpyqzsLg6MR9_IYn0Q?pwd=ydps) and Google Drive(will be prepared soon). Each synthsized dataset has two subfolders (GT, LQ), while the RealFaces200 dataset only has a RF200.txt to show the source or the link of every image. Noted that two subfolders Face_HQ and Face_LQ are also needed during test, you can generate them youself with generate_test_faces.py.
+- All the test data are provided as [BaiduDisk](https://pan.baidu.com/s/1PXQSzpyqzsLg6MR9_IYn0Q?pwd=ydps) and [Google Drive](https://drive.google.com/drive/folders/13aGnJXZiEKSRanu7bu6pJGutvMvKFeuV?usp=drive_link). Each synthsized dataset has two subfolders (GT, LQ), while the RealFaces200 dataset only has a RF200.txt to show the source or the link of every image. Noted that two subfolders Face_HQ and Face_LQ are also needed during test, you can generate them youself with generate_test_faces.py.
     ```shell
     python generate_test_faces.py --input_dir input_dir --output_dir output_dir
     ```
